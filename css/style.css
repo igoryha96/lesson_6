@@ -1,0 +1,256 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap&subset=cyrillic-ex");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+
+.heading {
+	border: 5px solid blueviolet;
+	padding: 20px;
+	background-color: burlywood;
+}
+
+.footer {
+	margin: 50px 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 42px;
+	font-family: "Explora", cursive;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px;
+	font-size: 80px;
+	font-family: "Explora", cursive;
+	border: 5px solid black;
+}
+
+.text1 {
+	padding: 20px 10px;
+	margin: 20px;
+	height: 300px;
+	width: 300px;
+	border: 10px solid red;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	background-color: cadetblue;
+}
+
+.one {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 15px 30px;
+	overflow: auto;
+	text-align: center;
+}
+
+.text2 {
+	padding: 20px 10px;
+	margin: 20px 100px;
+	height: 300px;
+	width: 300px;
+	border: 10px double;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.two {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 15px 30px;
+	overflow: auto;
+	text-align: center;
+	visibility: hidden;
+}
+
+.text3 {
+	padding: 20px 10px;
+	margin: 20px;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	display: inline-block;
+	outline: 10px dotted blue;
+	border-radius: 50%;
+}
+
+.three {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 15px 30px;
+	overflow: auto;
+	text-align: center;
+	opacity: 0.5;
+}
+
+.text4 {
+	padding: 20px 10px;
+	margin: 20px;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	border: 10px dotted blue;
+}
+
+.four {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 100px 30px;
+	overflow: auto;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 50px;
+}
+
+.text5 {
+	padding: 20px 10px;
+	margin: 20px 100px;
+	height: 300px;
+	width: 300px;
+
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	border: 10px dashed blue;
+	box-shadow: 10px -5px 10px coral;
+}
+
+.five {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 15px 30px;
+	overflow: auto;
+	text-align: center;
+}
+
+.text6 {
+	padding: 20px 10px;
+	margin: 20px;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	border: 10px double blue;
+	box-shadow: inset 10px 10px 10px yellowgreen;
+}
+
+.six {
+	display: block;
+	height: 220px;
+	width: 220px;
+	margin: 15px 30px;
+	overflow: auto;
+	text-align: center;
+}
+
+.footer-img {
+	border: 5px solid red;
+	display: block;
+	text-align: center;
+	border-radius: 70%;
+	overflow: hidden;
+}
+
+.blok {
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	outline: 5px double black;
+	text-align: center;
+	display: inline-block;
+}
+
+.article {
+	margin: 30px 10px;
+	opacity: 0.5;
+}
+
+.border {
+	border: 5px dotted black;
+	display: block;
+}
+
+.blok2 {
+	margin: 30px 0px;
+	border-top: 10px solid black;
+	border-bottom: 10px double black;
+	border-right: 10px dashed black;
+	border-left: 10px dotted black;
+	font-size: 32px;
+}
+
+.link {
+	margin: 30px 10px;
+	display: inline-block;
+	font-size: 32px;
+	box-shadow: 10px 10px 10px cornflowerblue;
+	border-bottom: 5px dashed red;
+	text-shadow: 10px 10px 10px cornflowerblue;
+}
+
+.link:hover {
+	border-bottom: 5px dashed blue;
+}
